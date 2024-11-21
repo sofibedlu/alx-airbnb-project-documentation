@@ -1,42 +1,51 @@
-Airbnb Clone Backend - Features and Functionalities
+Airbnb Clone Backend Features Diagram
 
-This document outlines the key features and functionalities of the Airbnb Clone backend system, created using Draw.io. The diagram serves as a visual representation of the core functionalities and their interactions to support a robust rental marketplace platform.
+📜 Overview
+This directory contains a hierarchical diagram that visualizes the key features and functionalities of the Airbnb Clone backend. The diagram serves as a comprehensive guide for understanding the structural and functional aspects of the system.
 
-Project Scope:
+🎯 Objective
+The purpose of this diagram is to:
 
-This document focuses on the backend functionalities required to build a scalable, secure, and user-friendly Airbnb Clone application.
+Illustrate the main backend features for the Airbnb Clone.
+Provide a clear representation of the interactions and relationships among various components.
+Serve as a foundation for implementing and designing the backend system.
 
-Diagram Breakdown:
+🖼️ Diagram Details
+The diagram showcases the key features and functionalities of the backend, structured as follows:
 
-The diagram follows a hierarchical structure with the following levels:
+Main Features
 
-Level 1: Backend System
-
-Represents the entire backend system of the Airbnb Clone application.
-Level 2: Core Functionalities
-
-Breaks down the essential features that make the Airbnb Clone function.
-Includes functionalities like:
 User Management
+
+User Registration (Guests, Hosts)
+Login & Authentication (Email/Password, OAuth with Google/Facebook)
+Profile Management (Profile Updates, Password Reset)
 Property Listings Management
+
+Add/Edit/Delete Listings
+Manage Property Details (Location, Pricing, Amenities, Photos)
 Search and Filtering
+
+Location Search
+Filters (Price Range, Guest Capacity, Amenities)
+Pagination for Search Results
+
 Booking Management
+Booking Creation and Cancellation
+Track Booking Status (Pending, Confirmed, Canceled, Completed)
+
 Payment Integration
+Payment Gateway Integration (Stripe, PayPal)
+Secure Payment Processing (Upfront Payments, Payouts to Hosts)
+Multi-Currency Support
+
 Reviews and Ratings
+Allow Guests to Leave Reviews
+Host Responses to Guest Reviews
+
 Notifications System
+Email Notifications
+In-App Notifications for Booking Updates (Confirmation, Cancellation, Payment)
+
 Admin Dashboard
-
-
-
-Additional Notes:
-
-The diagram uses arrows to represent relationships and data flows between functionalities.
-Short labels are used for clarity and better visual representation.
-The level of detail in the diagram can be further customized based on project requirements.
-
-
-Next Steps:
-
-Designing the backend architecture.
-Selecting appropriate technologies for database management, APIs, and security measures.
-Implementing the backend logic to support the outlined functionalities.
+Manage Users, Properties, Bookings, and Payments
