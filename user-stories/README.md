@@ -1,0 +1,2 @@
+This directory contains user stories derived from the Use Case Diagram created for the Airbnb Clone backend project.
+Each story captures a core interaction or functionality necessary to fulfill user requirements.
